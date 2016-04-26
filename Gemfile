@@ -10,16 +10,20 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-# Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-# Use Unicorn as the app server
-# gem 'unicorn'
-# Use Capistrano for deployment
+# gem 'puma'
 # gem 'capistrano-rails', group: :development
 
 gem 'dotenv-rails'
 gem 'haml-rails', '0.9.0'
 gem 'autoprefixer-rails', '6.3.4'
+gem 'twitter-bootstrap-rails'
+
+# gem 'decent_exposure'
+# gem 'decent_decoration'
+gem 'simple_form'
+# gem 'font-awesome-rails'
+# gem 'draper'
 
 group :development, :test do
   gem 'pry-rails'
