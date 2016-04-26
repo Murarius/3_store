@@ -1,3 +1,4 @@
+# class ApplicationController < ActionController::Base
 class ApplicationController < ActionController::Base
   # Prevent CSRF attacks by raising an exception.
   # For APIs, you may want to use :null_session instead.
@@ -6,4 +7,6 @@ class ApplicationController < ActionController::Base
   decent_configuration do
     strategy DecentExposure::StrongParametersStrategy
   end
+
+  add_flash_types :success, :info, :danger, :warning
 end
