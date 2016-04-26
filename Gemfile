@@ -19,7 +19,7 @@ gem 'haml-rails', '0.9.0'
 gem 'autoprefixer-rails', '6.3.4'
 gem 'twitter-bootstrap-rails'
 
-# gem 'decent_exposure'
+gem 'decent_exposure'
 # gem 'decent_decoration'
 gem 'simple_form'
 # gem 'font-awesome-rails'
