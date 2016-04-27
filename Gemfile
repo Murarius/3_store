@@ -45,6 +45,7 @@ group :development do
 end
 
 group :test do
+  gem 'faker'
   gem 'factory_girl_rails', '~> 4.0'
   gem 'capybara-screenshot'
   gem 'shoulda-matchers', require: false
