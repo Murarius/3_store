@@ -22,8 +22,8 @@ gem 'twitter-bootstrap-rails'
 gem 'decent_exposure'
 # gem 'decent_decoration'
 gem 'simple_form'
-# gem 'font-awesome-rails'
 # gem 'draper'
+gem 'devise'
 
 group :development, :test do
   gem 'pry-rails'
